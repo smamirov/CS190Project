@@ -1,0 +1,23 @@
+﻿@page
+@model MyCoreApp.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    This website is using the NASA APOD API and displaying it in onto an html page.
+    This can be viewed under the "Picture" tab. Link to the API: https://api.nasa.gov/
+</p>
+<h3>About the APOD API according to NASA description:</h3>
+<p>
+    "One of the most popular websites at NASA is the Astronomy Picture of the Day.
+     In fact, this website is one of the most popular websites across all federal agencies.
+     It has the popular appeal of a Justin Bieber video. This endpoint structures
+     the APOD imagery and associated metadata so that it can be repurposed for other
+     applications. In addition, if the concept_tags parameter is set to True, then
+     keywords derived from the image explanation are returned. These keywords could be
+     used as auto-generated hashtags for twitter or instagram feeds; but generally help
+     with discoverability of relevant imagery."
+</p>

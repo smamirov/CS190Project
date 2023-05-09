@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Picture";
+}
+
+<html>
+<head>
+    <title>NASA APOD API Demo</title>
+</head>
+<body>
+    <h1>NASA Astronomy Picture of the Day</h1>
+    <div id="apod-container"></div>
+
+    <script>const apodContainer = document.getElementById('apod-container');
+
+        fetch('https://api.nasa.gov/planetary/apod?api_key=FLrDa4PJq95JsvqTAzaAi7ISGZ5eYx5CoOoMeYFA')
+            .then(response => response.json())
+            .then(data => {
+                const apodDate = data.date;
+                const apodTitle = data.title;
+                const apodExplanation = data.explanation;
+                const apodUrl = data.hdurl;
+
+                const apodHtml = `
+                <p><strong>${apodDate}: ${apodTitle}</strong></p>
+                <img src="${apodUrl}" alt="${apodTitle}">
+                <p>${apodExplanation}</p>`;
+
+                apodContainer.innerHTML = apodHtml;
+            })
+            .catch(error => {
+                console.error(error);
+                apodContainer.innerHTML = '<p>An error occurred while fetching data from the API.</p>';
+            });</script>
+</body>
+</html>
+
+
+@*<div class="center">
+    <div id="map" style="height:600px; width:600px;"></div>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPHIana7ip3J58fGmXrJIaz0wGQBqwWvU&callback=initMAP"></script>
+    <script>var map;
+        function initMAP() {
+            var SetmapOptions = {
+                zoom: 15,
+                center: new google.maps.LatLng(37.841530399999996,-122.10984239999999)
+            };
+            map = new google.maps.Map(document.getElementById('map'),
+      SetmapOptions);
+        }</script>
+    <div>GET API KEY <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">HERE</a>:</div>
+</div>*@
+
+
