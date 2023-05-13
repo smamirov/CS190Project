@@ -8,5 +8,15 @@
 
   <ItemGroup>
     <None Remove="System.Configuration.ConfigurationManager" />
+    <None Remove="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\IMG-8015.JPG">
+      <Link>Images\IMG-8015.JPG</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

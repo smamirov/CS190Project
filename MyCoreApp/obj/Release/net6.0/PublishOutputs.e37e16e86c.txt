@@ -1,0 +1,8 @@
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/MyCoreApp
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/appsettings.Development.json
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/appsettings.json
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/Images/IMG-8015.JPG
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/MyCoreApp.dll
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/MyCoreApp.deps.json
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/MyCoreApp.runtimeconfig.json
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Release/net6.0/PubTmp/Out/MyCoreApp.pdb

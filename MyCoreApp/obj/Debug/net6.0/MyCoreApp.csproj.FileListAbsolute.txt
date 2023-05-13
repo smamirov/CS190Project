@@ -112,3 +112,4 @@ C:/Users/crazy/OneDrive/Workspace-VS/MyCoreApp/MyCoreApp/obj/Debug/net6.0/MyCore
 /Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Debug/net6.0/MyCoreApp.pdb
 /Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Debug/net6.0/MyCoreApp.genruntimeconfig.cache
 /Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Debug/net6.0/ref/MyCoreApp.dll
+/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/bin/Debug/net6.0/Images/IMG-8015.JPG

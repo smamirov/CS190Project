@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/1I9FeR8yP12P1tDn9CNP8qw/Gwbz305W5POKFTMtvA=",
+  "Hash": "c70OAZkEheVXagHmUOq/poRh9WfGZGJe6GC0KPV9jek=",
   "Source": "MyCoreApp",
   "BasePath": "_content/MyCoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/obj/Debug/net6.0/scopedcss/projectbundle/MyCoreApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/wwwroot/.DS_Store",
+      "SourceId": "MyCoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/wwwroot/",
+      "BasePath": "_content/MyCoreApp",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/wwwroot/css/site.css",

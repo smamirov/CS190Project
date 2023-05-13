@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/MyCoreApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/saidmamirov/dev/CS190/basicwebapp/MyCoreApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
